@@ -1,0 +1,283 @@
+/* Base CSS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 500;
+  padding: 0;
+}
+p {
+  font-size: 15px;
+  margin-bottom: 0px;
+  font-weight: 300;
+  font-family: "Roberto", sans-serif;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roberto", sans-serif;
+  background-color: #fff;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+@font-face {
+  font-family: "Roberto";
+  src: url(/Roberto_font/Roberto-regular.ttf);
+}
+
+a,
+a:hover,
+a:focus,
+input,
+textarea {
+  text-decoration: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #cf5a5a;
+}
+
+a:focus {
+  outline: 0 solid;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+#menu-main-menu {
+  justify-content: space-between;
+  align-items: center;
+}
+#navbarNav {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.navbar-brand {
+  text-transform: uppercase;
+  color: #fff !important;
+  font-weight: 900;
+  display: inline-block;
+  padding-right: 40px;
+}
+.fa-home {
+  font-size: 40px;
+  color: #ff000f;
+}
+.fa-angle-down {
+  font-size: larger;
+  font-weight: bold;
+  padding-left: 5px;
+  color: #ff000f;
+}
+.jumbotron {
+  background: url(../img/abb-jumbotron1.jpg) center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 0;
+  border-radius: 0;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.jumbo-title {
+  font-weight: 600;
+}
+
+.jumbo-subtitle {
+  font-size: 2.5rem;
+  line-height: 1;
+  width: 80%;
+  font-weight: 500;
+}
+.teaser {
+  overflow: hidden;
+}
+
+.copyright {
+  align-items: center;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.produkt-align {
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  display: flex;
+}
+.btn-danger {
+  border-radius: 25px;
+  background-color: #ff000f;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  /* color:  #ff000f; */
+}
+.card {
+  border: transparent;
+  border-radius: 0;
+}
+
+footer {
+  height: 125px;
+  position: relative;
+  color: white;
+}
+.footer-container {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.footer-impresum {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.copyright ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.copyright ul li a {
+  color: #fff;
+}
+.social-icons {
+  font-size: 25px;
+}
+
+/* Header Area */
+.header.header-fixed.sticky {
+  background-color: #fff;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 5px 0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#navbarNav a {
+  padding: 0px 12px;
+  color: #fff;
+}
+.header {
+  padding: 10px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.header a {
+  color: #333 !important;
+}
+
+.navbar {
+  padding-right: 0;
+}
+.header.sticky {
+  background-color: #fff;
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 5px 0;
+}
+.header.sticky a {
+  color: #333;
+}
+#navbarNav ul li:last-child a {
+  padding-right: 0;
+}
+.mainmenu ul li.current a,
+.mainmenu ul li a:hover {
+  color: #0084ff;
+}
+.header.header-fixed.sticky a {
+  color: #333 !important;
+}
+
+.btn-link {
+  font-weight: 400;
+  color: #fff;
+  font-size: 14px;
+}
+.btn-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.card-body {
+  padding: 10px 15px;
+  font-weight: 300;
+  line-height: 1.8;
+  font-size: 13px;
+}
+
+.single_about {
+  /* margin-bottom: 20px; */
+  border-bottom: 1px dashed #eee;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+}
+
+/* .single_about h4 {
+  margin: 5px 0;
+} */
+.single_about h4 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.single_about h4:before {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 3px;
+  background-color: #ff000f;
+  bottom: 0;
+  left: 0;
+}
+
+.single_about:hover i {
+  background-color: #db5c5c;
+  color: #fff;
+  border-color: #db5c5c;
+}
+
+.single_about:last-child {
+  border-bottom: 0;
+}

@@ -1,0 +1,52 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #navbarNav a {
+    padding: 0px 5px;
+    font-size: 14px;
+  }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+  .header-left {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .section-title h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .section-title::before {
+    display: none;
+  }
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .copyright,
+  .copyright ul {
+    text-align: center;
+  }
+  .copyright p {
+    margin-bottom: 10px;
+  }
+
+  #navbarNav {
+    border-top: 1px solid #eee;
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+  #navbarNav li {
+    padding: 5px 0px;
+  }
+  #navbarNav ul {
+    text-align: center;
+  }
+  #navbarNav li a {
+    font-weight: 400;
+  }
+  .produkt-align {
+    padding: 20px 0;
+  }
+}
